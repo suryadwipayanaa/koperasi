@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-style: sans-serif;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+
+.bel{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: -150px 0;
+    color: #fff;
+}
+.bel a{
+    color: #fff;
+}
+.bel .fa-lock{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#notif{
+    margin-right: 50px;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+}
+.map{
+    position: absolute;
+    top: 0;
+    margin-top: -120px;
+    margin-left: 495px;
+}
+
+.map .fa-map-marker{
+color: green;
+font-size: 20px;
+}
+
+.icon img{
+    height: 150px;
+    width: 150px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px 30px;
+    margin-top: -190px;
+}
+
+header{
+    margin-top: -180px;
+    background-color:#1a0d80;
+    height: 95px;
+    color: #ffff;
+    border-bottom: 2px solid rgba(19, 20, 20,.4);
+}
+header h1,
+h2{
+    color: red;
+    letter-spacing: 1px;
+    text-shadow: 0 5px 10px rgba(19, 20, 20,.4);
+}
+.menubar{
+    height: 50px;
+    background-color:#5e4de3;
+    border-bottom: 2px solid rgba(19, 20, 20,.5);
+}
+
+.menubar ul{
+    margin-left: 400px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.menubar ul li a{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 80px;
+    font-weight: 600;
+    padding: 5px;
+    text-shadow: 0 4px 50px rgba(19, 20, 20,.5);
+    transition: .5s ease all;
+}
+
+
+.fa-home,
+.fa-cogs,
+.fa-images,
+.fa-phone-square-alt{
+    font-size: 20px;
+    transition: .5s ease all;
+}
+.fa-home{
+    color: red;
+}
+.fa-cogs{
+    color: orangered;
+}
+.fa-images{
+    color: yellow;
+}
+.fa-phone-square-alt{
+    color: black;
+}
+
+.menubar ul li a:hover{
+    color: salmon;
+}
+
+.konten{
+    margin-top: 180px;
+    border: 2px solid rgba(19, 20, 20,.5);
+    height: 550px;
+    width: 1200px;
+    margin-left: 80px;
+    box-shadow: 2px 2px 5px rgba(19, 20, 20,.5),
+                -2px -2px 5px rgba(19, 20, 20,.5);
+}
+
+.konten img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    padding: 10px;
+    display: block;
+    float: left;
+    padding: 200px 20px;
+    margin-top: -120px;
+}
+
+.konten p{
+padding:170px 10px;
+margin-top: -120px;
+text-align: justify;
+}
+
+.konten p b{
+    font-size: 20px;
+    padding: 45px 150px;
+    text-align: justify;
+}
+
+.about img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 10px;
+    float: right;
+    
+}
+
+.about{
+    width: 1200px;
+    height: 500px;
+    color: #ffff;
+    margin-left: 80px;
+    margin-top: 70px;
+    box-shadow: 2px 2px 5px rgba(19, 20, 20,.5),
+                -2px -2px 5px rgba(19, 20, 20,.5);
+}
+.about h1{
+    letter-spacing: 1px;
+    text-shadow: 0 5px 10px rgba(19, 20, 20,.4);
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+
+}
+
+.about p{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: black;
+    text-align: justify;
+}
+.content1{
+    margin-top: 40px;
+}
+.content1 h1{
+    font-size: bold;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-decoration: underline;
+
+}
+.content1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+
+.content1 .sub span{
+    font-size: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.sub1 ul li{
+display: inline-block;
+margin-left: 140px;
+}
+
+.sub1 ul{
+    left: 0;
+    margin-top: 10px;
+}
+
+.sub1 p {
+    display: block;
+    margin: 20px 20px;
+    text-align: justify;
+
+}
+
+.sub1
+.rat1,
+.rat2,
+.rat3{
+    border: 1px black solid;
+    width: 250px;
+    height: 475px;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+.submit{
+    width: 90px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border: black;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5%;
+    margin: 10px 80px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: -60px;
+    font-weight: 700;
+}
+
+
+
+.contact{
+    border-radius: 30px;
+    margin-top: 70px;
+    background-color: ##9c7890;
+    border: 2px solid rgba(19, 20, 20,.5);
+    height: 550px;
+    width: 1200px;
+    margin-left: 80px;
+    box-shadow: 2px 2px 5px rgba(19, 20, 20,.5),
+                -2px -2px 5px rgba(19, 20, 20,.5);
+}
+
+.contact h1{
+    letter-spacing: 1px;
+    text-shadow: 0 5px 10px rgba(19, 20, 20,.4);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    float: left;
+    padding: 200px 70px;
+    margin-top: -180px;
+    border-radius: 50%;
+}
+
+.kontak{
+    line-height: 45px;
+    margin: 40px 10px;
+    height: 350px;
+    border: 2px solid rgba(19, 20, 20,.5);
+    box-shadow:2px 3px 10px rgba(19, 20, 20,.4);
+    box-shadow:-2px -3px 10px rgba(19, 20, 20,.4);
+    width: 500px;
+    position: absolute;
+    margin-left: 600px;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.kontak span{
+    font-size: 1.5em;
+}
+
+.kontak .fa-user,
+.fa-map-marker,
+.fa-clock,
+.fa-phone,
+.fa-instagram,
+.fa-facebook,
+.fa-whatsapp
+{
+font-size: 1.5em;
+margin-right: 10px;
+}
+.fa-map-marker{
+    color:red;
+}
+.fa-clock{
+    color:blue;
+}
+.fa-phone{
+    color: green;
+}
+
+.fa-instagram{
+    color: red;
+}
+
+.fa-facebook{
+    color:blue;
+}
+.fa-whatsapp{
+    color:green;
+}
+
+footer{
+    position: absolute;
+    background-color:blue;
+    color: #fff;
+    height: 60px;
+    width: 100%;
+    margin-top: 100px;
+}
+footer p{
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 1px;
+    text-shadow: 0 3px 10px rgba(19, 20, 20,.4);
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
